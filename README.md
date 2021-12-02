@@ -11,8 +11,8 @@ This data was collected from two sources found here:https://components.one/datas
 
 ### Data Cleaning
 
-Text Classification projects requre two steps to preparing data for modling. The first step is prerocessing the data to remove any noise from the documents. The next step is vectorizing the data for the models to use. 
-Preprocessing:
+Text Classification projects requre two steps to preparing data for modling. The first step is prerocessing the data to remove any noise from the documents. The next step is vectorizing the data for the models to use. <br><br>
+Preprocessing:<br><br>
 
 In the preprocessing step of the project if followed these steps:
     Lower case each word
@@ -21,7 +21,7 @@ In the preprocessing step of the project if followed these steps:
     Tokenize the list
     Remove common stop words and punctuation
     Lemmatizes each word
-    Returns a string of the remaining lemmatized words
+    Returns a string of the remaining lemmatized words<br><br>
 Fist I lowercasing all the words to simplfy cleaning process. I then remove noice like mentions(@abc1123), hastags(#), and urls because they do not add anything to analysis. I also remove information at the end of The Hill's articles because it is contact information and does not help with analysis. Numbers are removed because they have no context by themselves. We tokenize the list and remove any common stopwords and punctuation.  Tokenizing a list is breaking each element in the list into its own list object. Next, I lemmatized the remaining words and combines the tokens back into a string to be vectorized.
 
 Vetorizing
