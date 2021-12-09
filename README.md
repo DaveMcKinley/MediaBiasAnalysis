@@ -52,4 +52,5 @@ I would like to work with the model more to improve its power and capabilities. 
 ├── notebooks
 ├── README.md
 ├── Presentation.pdf
-└── MVPNotebook.ipynb
+├── enviornment.yml
+└── FinalNotebook.ipynb
