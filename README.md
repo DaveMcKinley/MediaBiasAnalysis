@@ -54,10 +54,10 @@ The XGBoost ensemble performed well on the hold out set. The model achieved an a
 I would like to work with the model more to improve its power and capabilities. I would like to explore a more robust dataset with more news sources. Explore language transformers like BERT and GPT3. Investigate topic analysis of the corpus. Add a subjectivity analysis score to the articles. And finally, I would like to create an app or browser extension for people to use no matter what site they visit. 
 
 
-
+├── enivornment <br>
+├── notebooks <br>
 ├── images <br>
-├── notebooks
-├── README.md
-├── Presentation.pdf
-├── enviornment.yml
+├── README.md <br>
+├── gitignore <br>
+├── Presentation.pdf <br>
 └── FinalNotebook.ipynb
